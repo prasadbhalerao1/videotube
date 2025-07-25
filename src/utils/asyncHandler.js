@@ -5,6 +5,6 @@ const asyncHandler = (requestHandler) => {
   };
 }
 
-export default asyncHandler;
+export { asyncHandler };
 
 // This is to ensure that any errors in async route handlers are passed to the next middleware, allowing for centralized error handling in the application.
